@@ -2,7 +2,7 @@ const fizzbuzz = require("../index");
 
 describe("fizzbuzz", () => {
   it("returns FizzBuzz when value is divisible by 15", () => {
-    expect(fizzbuzz(30)).toStrictEqual("FizzBuzz");
+    expect(fizzbuzz(30)).toStrictEqual("FizzBuzzz");
   });
 
   it("returns Fizz when value is divisible by 3", () => {
